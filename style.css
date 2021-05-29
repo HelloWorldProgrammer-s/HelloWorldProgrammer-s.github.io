@@ -1,0 +1,138 @@
+::selection{
+	background: #2aff7c;
+	color: black;
+}
+
+body {
+	font-size: 30px;
+	background-image: url(fon.png);
+	background-size: contain;
+}
+
+.dan{
+	background: black;
+}
+
+.rot:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.rot { display: inline-block; }
+/* start commented backslash hack */
+* html .clearfix { height: 1%; }
+.rot { display: block; }
+/* close commented backslash hack */
+
+header {
+	height: 200px;
+	text-align: center;
+	font-weight: 900;
+	padding-bottom: 2%; 
+}
+
+.content {
+
+	-webkit-box-shadow: 4px 4px 11px 8px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 4px 4px 11px 8px rgba(34, 60, 80, 0.2);
+	box-shadow: 4px 4px 11px 8px rgba(34, 60, 80, 0.2);
+
+	background: #2929299a;
+
+	min-height: 500px;
+	width: 95.5%;
+	margin-left: 2.2%;
+	margin-top:15px;
+}
+
+sidebar {
+	margin-left: 4%;
+	margin-bottom: 0px;
+}
+.text_content {
+	text-align: justify;
+	margin: 10px;
+	padding: 80px;
+	padding-top: 40px;
+	color: white;
+}
+a {
+	color: black;
+}	
+h1 {
+	font-size: 45px;
+}
+.but{
+	color: #fff; 
+
+	background: #2929299a;
+	
+	padding: 5px; 
+	
+	border-radius: 5px;
+	border-style: dashed;
+	border-color: #29292900;
+	border-width: 5px;
+	
+	width: 30%;
+}
+.but:hover {
+	border-color: #2aff7c;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+.gradient-text {
+  	font-family: 'Rubik One', sans-serif;
+  	font-size: 65px;
+  	text-transform: uppercase;
+
+  	background: -webkit-linear-gradient(45deg, rgb(0, 216, 44), rgb(0, 227, 217));
+	background: -moz-linear-gradient(45deg, rgb(0, 216, 44), rgb(0, 227, 217));
+	background: linear-gradient(45deg, rgb(0, 216, 44), rgb(0, 227, 217));
+  	
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	color: #0B2349;
+  	display: table;
+  	margin: 20px auto;
+  	padding-top: 55px;
+  	font-weight: 23px;
+}
+footer{
+	background-color: black;
+	min-height: 170px;
+}
+.footer_text{
+	width: 500px;
+	font-size: 20px;
+	padding-top: 20px;
+	margin-left: 140px;
+	float: right;
+	color: #2aff7c;
+}
+.footer_text2{
+	font-size: 14px;
+	padding-top: 100px;
+	padding-left: 15px;
+	color: #929393;
+}
+small{
+	color:#2aff7c;
+}
+span{
+	color:#eee;
+}
+li{
+	color: wheat;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 35px;
+}
+.connect{
+	background: -webkit-linear-gradient(45deg, rgb(0, 216, 44), rgb(0, 227, 217));
+	background: -moz-linear-gradient(45deg, rgb(0, 216, 44), rgb(0, 227, 217));
+	background: linear-gradient(45deg, rgb(0, 216, 44), rgb(0, 227, 217));
+}
