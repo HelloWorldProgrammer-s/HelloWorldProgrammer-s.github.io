@@ -1,0 +1,131 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'code';
+    src: url('font_code/code_bold.woff2') format('woff2'),
+         url('font_code/code_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Globals */
+
+::selection {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	background-color: #EFEFEF;
+	background-size: contain;
+}
+
+sidebar {
+	margin-left: 4%;
+	margin-bottom: 0px;
+}
+
+li {
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 160%;
+}
+
+/* Header */
+
+header {
+	height: 200px;
+	text-align: center;
+	font-weight: 900;
+	padding-bottom: 2%; 
+}
+
+.but {
+	transition: 150ms;
+	background: #2929299a;
+	border-style: none;
+	padding: 5px; 
+	border-radius: 1rem;
+	width: 30%;
+	color: #FFFFFF;
+}
+
+.but:hover {
+	background-color: rgba(20, 20, 20, 0.5);
+}
+
+.header-text {
+	font-family: code, sans-serif;
+	font-size: 5rem;
+}
+
+/* Main Content */
+
+#our-skills {
+	margin-top: 2%;
+	margin-bottom: -10%
+}
+
+.content {
+	position: relative;
+	box-shadow: 0px 20px 40px rgba(120, 120, 120, 0.2);
+	border-radius: 16px;
+	background: #2929299a;
+	min-height: 500px;
+	width: 95.5%;
+	margin-left: 2.2%;
+	margin-top: 15px;
+}
+
+.text_content {
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	margin: 10px;
+	padding: 80px;
+	padding-top: 40px;
+	color: white;
+}
+
+/* Footer */
+
+footer {
+	margin-top: 5%;
+	margin-left: -0.6%;
+	margin-bottom: -1%;
+	margin-right: -0.6%;
+	border-radius: 30px 30px 0px 0px;
+	background-color: rgba(20, 20, 20, 0.5);
+	color: #EEEEEE;
+}
+
+footer a {
+	color: #4040DD;
+}
+
+.footer_text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 110%;
+	padding-top: 50px;
+	padding-left: 15px;
+	padding-bottom: 30px;
+	
+}
+
+/* Members */
+
+.centered {
+	text-align: center;
+}
+
+.avatar {
+	width: 20%;
+	border-radius: 50%;
+	margin-top: 2rem; 
+}
+
+.name {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color: #4040DD;
+}
